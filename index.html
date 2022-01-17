@@ -29,9 +29,9 @@
     <main class="card-columns mx-auto d-flex justify-content-center col-12 col-sm-6">
       <div class="card" style="background: rgb(0 0 0 / 60%);margin-top: 0px;border: 0px;border-radius: 15px;">
         <div class="card-body p-3 p-sm-4">
-          <!--img src="https://www.img.in.th/images/3df4d27e72025583da10f797c08b651a.jpg" class="img-fluid" style="width: 50%;"-->
+          <!--img src="https://www.img.in.th/images/4072fc1786e6b3d4c191bdd743708d9f.jpg" class="img-fluid" style="width: 50%;"-->
           <!--ส่วนรูปโปรโมชั่น และ ลิ้งออกจากรูปภาพ-->
-          <img src="https://www.img.in.th/images/3df4d27e72025583da10f797c08b651a.jpg" class="img-fluid" style="width: 450px;border-radius: 15px;">
+          <img src="https://www.img.in.th/images/4072fc1786e6b3d4c191bdd743708d9f.jpg" class="img-fluid" style="width: 450px;border-radius: 15px;">
           
           <p class="lead mb-4 mt-3" style="font-family: 'Kanit', sans-serif;font-size: 28px;font-weight: 500;">เเชร์ปั๊บรับทันที</p>
           <div class="d-grid gap-2 col-10 mx-auto">
@@ -51,275 +51,87 @@
   <script>
     async function sendShare() {
       const result = await liff.shareTargetPicker([{
-  "type": "flex",
-  "altText": "this is a flex message",
-  "contents": {
+        "type": "flex",
+        "altText": "ตอบหน่อย",
+    "type": "flex",
+    "contents": {
   "type": "bubble",
-  "size": "giga",
-  "header": {
-    "type": "box",
-    "layout": "vertical",
-    "contents": [
-      {
-        "type": "text",
-        "text": "✔ ท่านได้ทำการลงทะเบียนเรียบร้อยแล้ว",
-        "weight": "bold",
-        "align": "center",
-        "color": "#ffffff",
-        "size": "lg"
-      }
-    ],
-    "paddingAll": "0px",
-    "backgroundColor": "#00ad00",
-    "height": "50px",
-    "justifyContent": "center"
-  },
   "body": {
     "type": "box",
     "layout": "vertical",
     "contents": [
       {
-        "type": "box",
-        "layout": "horizontal",
-        "contents": [
-          {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
-              {
-                "type": "image",
-                "url": "https://linevoom.line.me/img/no_profile1.png"
-              }
-            ],
-            "width": "80px",
-            "height": "80px",
-            "cornerRadius": "150px"
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
-              {
-                "type": "text",
-                "text": "hello, world",
-                "weight": "bold",
-                "size": "lg",
-                "wrap": true
-              }
-            ],
-            "justifyContent": "center",
-            "margin": "md"
-          }
-        ]
-      },
-      {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "contents": [
-              {
-                "type": "text",
-                "text": "📧 E-mail :",
-                "weight": "bold",
-                "gravity": "center",
-                "color": "#ffffff"
-              }
-            ],
-            "justifyContent": "center"
-          },
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "contents": [
-              {
-                "type": "text",
-                "text": "hello, world",
-                "margin": "md",
-                "wrap": true
-              }
-            ],
-            "margin": "md",
-            "justifyContent": "center",
-            "borderWidth": "2px",
-            "backgroundColor": "#eadbc8"
-          }
-        ],
-        "margin": "md",
-        "borderWidth": "3px",
-        "borderColor": "#c7a170",
-        "cornerRadius": "md",
-        "backgroundColor": "#c7a170"
-      },
-      {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "contents": [
-              {
-                "type": "text",
-                "text": "📞 Phone No. :",
-                "weight": "bold",
-                "gravity": "center",
-                "color": "#ffffff"
-              }
-            ],
-            "justifyContent": "center"
-          },
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "contents": [
-              {
-                "type": "text",
-                "text": "hello, world",
-                "margin": "md",
-                "wrap": true
-              }
-            ],
-            "margin": "md",
-            "justifyContent": "center",
-            "borderWidth": "2px",
-            "backgroundColor": "#eadbc8"
-          }
-        ],
-        "margin": "md",
-        "borderWidth": "3px",
-        "borderColor": "#c7a170",
-        "cornerRadius": "md",
-        "backgroundColor": "#c7a170"
-      },
-      {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "box",
-            "layout": "baseline",
-            "contents": [
-              {
-                "type": "icon",
-                "url": "https://play-lh.googleusercontent.com/74iMObG1vsR3Kfm82RjERFhf99QFMNIY211oMvN636_gULghbRBMjpVFTjOK36oxCbs=s180-rw"
-              },
-              {
-                "type": "text",
-                "text": "LINE ID :",
-                "weight": "bold",
-                "gravity": "center",
-                "color": "#ffffff",
-                "margin": "md"
-              }
-            ],
-            "justifyContent": "center"
-          },
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "contents": [
-              {
-                "type": "text",
-                "text": "hello, world",
-                "margin": "md",
-                "wrap": true
-              }
-            ],
-            "margin": "md",
-            "justifyContent": "center",
-            "borderWidth": "2px",
-            "backgroundColor": "#eadbc8"
-          }
-        ],
-        "margin": "md",
-        "borderWidth": "3px",
-        "borderColor": "#c7a170",
-        "cornerRadius": "md",
-        "backgroundColor": "#c7a170"
-      },
-      {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "contents": [
-              {
-                "type": "text",
-                "text": "📱 OS :",
-                "weight": "bold",
-                "gravity": "center",
-                "color": "#ffffff"
-              }
-            ],
-            "justifyContent": "center"
-          },
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "contents": [
-              {
-                "type": "text",
-                "text": "hello, world",
-                "margin": "md",
-                "wrap": true
-              }
-            ],
-            "margin": "md",
-            "justifyContent": "center",
-            "borderWidth": "2px",
-            "backgroundColor": "#eadbc8"
-          }
-        ],
-        "margin": "md",
-        "borderWidth": "3px",
-        "borderColor": "#c7a170",
-        "cornerRadius": "md",
-        "backgroundColor": "#c7a170"
-      }
-    ],
-    "paddingAll": "10px",
-    "backgroundColor": "#eadbc899"
-  },
-  "footer": {
-    "type": "box",
-    "layout": "horizontal",
-    "contents": [
-      {
         "type": "image",
-        "url": "https://sv1.picz.in.th/images/2021/09/08/Ci38Xl.png",
+        "url": "https://www.img.in.th/images/4072fc1786e6b3d4c191bdd743708d9f.jpg",
         "size": "full",
-        "animated": true,
         "aspectMode": "cover",
-        "aspectRatio": "16:3"
+        "aspectRatio": "1:1",
+        "gravity": "center",
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "https://lin.ee/416pEyg"
+        }
       },
       {
         "type": "box",
         "layout": "vertical",
-        "contents": [
-          {
-            "type": "image",
-            "url": "https://sv1.picz.in.th/images/2021/08/04/2qQv8n.png",
-            "animated": true,
-            "size": "sm"
-          }
-        ],
-        "position": "absolute"
+        "contents": [],
+        "position": "absolute",
+        "background": {
+          "type": "linearGradient",
+          "angle": "0deg",
+          "endColor": "#00000000",
+          "startColor": "#00000099"
+        },
+        "width": "300%",
+        "height": "28%",
+        "offsetBottom": "0px",
+        "offsetStart": "0px",
+        "offsetEnd": "0px",
+        "spacing": "none",
+        "margin": "xs",
+        "backgroundColor": "#000000",
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "https://lin.ee/416pEyg"
+        }
+      },
+      {
+        "type": "text",
+        "text": "คลิ๊กสมัครตอนนี้",
+        "size": "lg",
+        "margin": "md",
+        "weight": "bold",
+        "style": "normal",
+        "position": "relative",
+        "align": "center",
+        "color": "#FFCC00"
+      },
+      {
+        "type": "text",
+        "text": "รับไปเลยทันทีเงินฟรี 50 บาท",
+        "style": "normal",
+        "weight": "bold",
+        "align": "center",
+        "color": "#FF6633"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "สมัครรับเครดิตฟรี",
+          "uri": "https://lin.ee/416pEyg"
+        },
+        "style": "primary",
+        "margin": "md"
       }
     ],
-    "paddingAll": "0px",
-    "action": {
-      "type": "uri",
-      "label": "action",
-      "uri": "line://nv/profilePopup/mid=ufb9d34cac39cc328b9febede9f106341"
-    }
+    "paddingAll": "0px"
   }
 }
-}])
+      }])
       if (result) {
         liff.closeWindow()
       } else {
